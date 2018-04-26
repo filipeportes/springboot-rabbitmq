@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.message</groupId>
+	<artifactId>demos</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>rabbitmq demo</name>
+	<description>Demo project for producer/consumer with spring boot and rabbitmq</description>
+
+	<modules>
+		<module>rabbitmq-common</module>
+		<module>rabbitmq-producer</module>
+		<module>rabbitmq-consumer</module>
+	</modules>
+
+</project>
